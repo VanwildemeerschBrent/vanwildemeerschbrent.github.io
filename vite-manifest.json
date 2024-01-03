@@ -1,11 +1,11 @@
 {
-  "src/lib/assets/header-bg.jpg": {
-    "file": "internal/immutable/assets/header-bg-e10974a7.jpg",
-    "src": "src/lib/assets/header-bg.jpg"
-  },
   "src/lib/assets/brent-profile-picture.png": {
     "file": "internal/immutable/assets/brent-profile-picture-44e32126.png",
     "src": "src/lib/assets/brent-profile-picture.png"
+  },
+  "src/lib/assets/header-bg.jpg": {
+    "file": "internal/immutable/assets/header-bg-e10974a7.jpg",
+    "src": "src/lib/assets/header-bg.jpg"
   },
   "src/lib/assets/resume-brent-vanwildemeersch.pdf": {
     "file": "internal/immutable/assets/resume-brent-vanwildemeersch-0742be3f.pdf",
@@ -15,11 +15,8 @@
     "file": "internal/immutable/assets/_page-00f00999.css",
     "src": "src/routes/+page.css"
   },
-  "_singletons-eb841dbb.js": {
-    "file": "internal/immutable/chunks/singletons-eb841dbb.js",
-    "imports": [
-      "_index-17a0a400.js"
-    ]
+  "__layout-025914ab.js": {
+    "file": "internal/immutable/chunks/_layout-025914ab.js"
   },
   ".svelte-kit/generated/nodes/0.js": {
     "file": "internal/immutable/chunks/0-3f83dbe7.js",
@@ -38,24 +35,13 @@
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
-  "src/routes/+page.svelte": {
-    "file": "internal/immutable/components/pages/_page.svelte-935c2332.js",
-    "src": "src/routes/+page.svelte",
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "internal/immutable/components/layout.svelte-cf14c1f3.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-17a0a400.js"
-    ],
-    "css": [
-      "internal/immutable/assets/_page-00f00999.css"
-    ],
-    "assets": [
-      "internal/immutable/assets/header-bg-e10974a7.jpg",
-      "internal/immutable/assets/resume-brent-vanwildemeersch-0742be3f.pdf",
-      "internal/immutable/assets/brent-profile-picture-44e32126.png"
     ]
-  },
-  "__layout-025914ab.js": {
-    "file": "internal/immutable/chunks/_layout-025914ab.js"
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
     "file": "internal/immutable/components/error.svelte-62d12be9.js",
@@ -74,14 +60,6 @@
       "__layout-025914ab.js"
     ]
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
-    "file": "internal/immutable/components/layout.svelte-cf14c1f3.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-17a0a400.js"
-    ]
-  },
   ".svelte-kit/generated/nodes/2.js": {
     "file": "internal/immutable/chunks/2-528221a5.js",
     "src": ".svelte-kit/generated/nodes/2.js",
@@ -90,8 +68,30 @@
       "src/routes/+page.svelte"
     ]
   },
+  "_singletons-eb841dbb.js": {
+    "file": "internal/immutable/chunks/singletons-eb841dbb.js",
+    "imports": [
+      "_index-17a0a400.js"
+    ]
+  },
   "_index-17a0a400.js": {
     "file": "internal/immutable/chunks/index-17a0a400.js"
+  },
+  "src/routes/+page.svelte": {
+    "file": "internal/immutable/components/pages/_page.svelte-935c2332.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-17a0a400.js"
+    ],
+    "css": [
+      "internal/immutable/assets/_page-00f00999.css"
+    ],
+    "assets": [
+      "internal/immutable/assets/header-bg-e10974a7.jpg",
+      "internal/immutable/assets/resume-brent-vanwildemeersch-0742be3f.pdf",
+      "internal/immutable/assets/brent-profile-picture-44e32126.png"
+    ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
     "file": "internal/immutable/start-9a835452.js",
