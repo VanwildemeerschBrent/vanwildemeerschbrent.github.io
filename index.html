@@ -19,10 +19,13 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta property="twitter:domain" content="brentvanwildemeersch.com" />
 	<meta property="twitter:url" content="https://brentvanwildemeersch.com" />
-	<meta name="twitter:title" content="rent Vanwildemeersch | Software Engineer" />
+	<meta name="twitter:title" content="Brent Vanwildemeersch | Software Engineer" />
 	<meta name="twitter:description" content="Portfolio site of Brent Vanwildemeersch" />
 	<meta name="twitter:image"
 		content="https://brentvanwildemeersch.com/internal/immutable/assets/brent-profile-picture-44e32126.png" />
+
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://brentvanwildemeersch.com" />
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -31,31 +34,56 @@
 	<!-- Resource hints for external domains -->
 	<link rel="preconnect" href="https://dev.to" crossorigin>
 	<link rel="dns-prefetch" href="https://dev.to">
+	<link rel="preconnect" href="https://api.github.com" crossorigin>
+	<link rel="dns-prefetch" href="https://api.github.com">
+
+	<!-- Structured Data (JSON-LD) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Brent Vanwildemeersch",
+		"jobTitle": "Software Engineer",
+		"description": "Software engineer with 8+ years of experience, currently completing MBA",
+		"url": "https://brentvanwildemeersch.com",
+		"sameAs": [
+			"https://github.com/brentvanwildemeersch",
+			"https://www.linkedin.com/in/brentvanwildemeersch",
+			"https://dev.to/brentvw"
+		],
+		"knowsAbout": ["JavaScript", "PHP", "Web Development", "SvelteKit", "Business Strategy"]
+	}
+	</script>
 
 	<meta charset="utf-8" />
 	
-		<link rel="modulepreload" href="/internal/immutable/entry/start.DgLw0NqW.js">
-		<link rel="modulepreload" href="/internal/immutable/chunks/BS0SS2Lb.js">
-		<link rel="modulepreload" href="/internal/immutable/chunks/DjrxwhAr.js">
-		<link rel="modulepreload" href="/internal/immutable/chunks/DcfDK8k3.js">
-		<link rel="modulepreload" href="/internal/immutable/entry/app.BnNFUL0K.js">
-		<link rel="modulepreload" href="/internal/immutable/chunks/CWj6FrbW.js">
-		<link rel="modulepreload" href="/internal/immutable/chunks/DXCvy-Ch.js">
+		<link rel="modulepreload" href="/internal/immutable/entry/start.CGtIHIqT.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/B5s5PtQR.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/DpxEDDK_.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/BUApaBEI.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/C8Kdsrfi.js">
+		<link rel="modulepreload" href="/internal/immutable/entry/app.DBgWhiHk.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/CnB8gA4-.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/BK4gxGVi.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/DLy2YNzr.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/Di_eFw4N.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/Dribg8wr.js">
+		<link rel="modulepreload" href="/internal/immutable/chunks/B4X2z7X5.js">
 </head>
 
 <body data-sveltekit-preload-data="hover">
 	<div style="display: contents">
 			<script>
 				{
-					__sveltekit_cb8qe6 = {
+					__sveltekit_1dkextq = {
 						base: ""
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/internal/immutable/entry/start.DgLw0NqW.js"),
-						import("/internal/immutable/entry/app.BnNFUL0K.js")
+						import("/internal/immutable/entry/start.CGtIHIqT.js"),
+						import("/internal/immutable/entry/app.DBgWhiHk.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
