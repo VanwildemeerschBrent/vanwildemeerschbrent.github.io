@@ -1,1 +1,1 @@
-export const env={}
+export const env={"PUBLIC_UMAMI_WEBSITE_ID":"e4c49d8b-a376-454b-8ba1-5414e808f580","PUBLIC_UMAMI_SCRIPT_URL":"https://cloud.umami.is/script.js"}
