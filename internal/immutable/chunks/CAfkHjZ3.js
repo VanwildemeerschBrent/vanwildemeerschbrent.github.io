@@ -1,1 +1,0 @@
-const e=""+new URL("../assets/brent-profile-picture.Dm6QB7Io.png?imagetools&width=120&height=120&fit=inside&format=webp",import.meta.url).href;export{e as P};
